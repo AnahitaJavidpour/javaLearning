@@ -3,43 +3,59 @@ package oopexercise;
 import name.Human;
 
 public class Bank {
-    Human[] owners;
-    BaseAccount[] bankAccounts;
+    public Human[] owners;
+    public BaseAccount[] bankAccounts;
+
+    public Human[] getOwners() {
+        return owners;
+    }
+
+    public void setOwners(Human[] owners) {
+        this.owners = owners;
+    }
+
+    public BaseAccount[] getBankAccounts() {
+        return bankAccounts;
+    }
+
+    public void setBankAccounts(BaseAccount[] bankAccounts) {
+        this.bankAccounts = bankAccounts;
+    }
 
     public Bank() {
 
         Human khalilRezaee = new Human();
 
-        khalilRezaee.name = "khalil";
+        khalilRezaee.setName("khalil");
 
-        khalilRezaee.lastName = "Rezaee";
+        khalilRezaee.setLastName("Rezaee");
 
-        khalilRezaee.nationalCode = "47521";
+        khalilRezaee.setNationalCode("47521");
 
 
         Human fatemehHashemi = new Human();
 
-        fatemehHashemi.name = "fatemeh";
+        fatemehHashemi.setName("fatemeh");
 
-        fatemehHashemi.lastName = "Hashemi";
+        fatemehHashemi.setLastName("Hasihem");
 
-        fatemehHashemi.nationalCode = "89703";
+        fatemehHashemi.setNationalCode("89703");
 
         Human asgharHosseini = new Human();
 
-        asgharHosseini.name = "asghar";
+        asgharHosseini.setName("asghar");
 
-        asgharHosseini.lastName = "Hosseini";
+        asgharHosseini.setLastName("Hosseini");
 
-        asgharHosseini.nationalCode = "39265";
+        asgharHosseini.setNationalCode("39265");
 
         Human mahsaKazemi = new Human();
 
-        mahsaKazemi.name = "mahsa";
+        mahsaKazemi.setName ("mahsa");
 
-        mahsaKazemi.lastName = "Kazemi";
+        mahsaKazemi.setLastName ("Kazemi");
 
-        mahsaKazemi.nationalCode = "90274";
+        mahsaKazemi.setNationalCode ("90274");
 
         BaseAccount num1 = new BaseAccount();
         num1.owner = khalilRezaee;

@@ -12,11 +12,11 @@ public class Main {
 
         Human customer = new Human();
 
-        customer.name = "Hasan";
+        customer.setName("Hasan");
 
-        customer.lastName = "Ahmadi";
+        customer.setLastName("Ahmadi");
 
-        customer.nationalCode = "12345";
+        customer.setNationalCode("12345");
 
         newAccount.owner = customer;
         newAccount.balance = BigDecimal.valueOf(120000L);
