@@ -1,4 +1,4 @@
-package oopExtraExersice;
+package oopExtraExercise;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package scannerExersice;
+package scannerExercise;
 
 public class Login {
 

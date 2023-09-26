@@ -1,8 +1,6 @@
-package oopExtraExersice;
+package oopExtraExercise;
 
 import java.math.BigDecimal;
-
-import static java.math.BigDecimal.*;
 
 public class Square extends Shape {
 

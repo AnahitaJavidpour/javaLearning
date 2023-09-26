@@ -1,10 +1,36 @@
 package name;
 
 public class Human {
-    public String name;
-    public String lastName;
+    private String name;
+    private String lastName;
 
-    public String nationalCode;
+    private String nationalCode;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setNationalCode(String nationalCode) {
+        this.nationalCode = nationalCode;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getNationalCode() {
+        return nationalCode;
+    }
+
+
     public static void main(String[] args) {
         Mammad mammad = new Mammad();
 
@@ -14,4 +40,6 @@ public class Human {
     public String name() {
         return name + " " + lastName;
     }
+
+
 }
